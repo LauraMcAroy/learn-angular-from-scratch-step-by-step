@@ -32,7 +32,7 @@
               "src/styles.scss"
             ],
             "scripts": [],
-            "es5BrowserSupport": true
+            
           },
           "configurations": {
             "production": {
@@ -64,18 +64,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "learn-angular-from-scratch:build"
+            "buildTarget": "learn-angular-from-scratch:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "learn-angular-from-scratch:build:production"
+              "buildTarget": "learn-angular-from-scratch:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "learn-angular-from-scratch:build"
+            "buildTarget": "learn-angular-from-scratch:build"
           }
         },
         "test": {
